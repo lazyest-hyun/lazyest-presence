@@ -1,0 +1,16 @@
+{
+  "name": "lazyest-presence",
+  "private": true,
+  "type": "module",
+  "description": "Scheduled Microsoft Teams presence for macOS, with agent-friendly installation",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "dependencies": {
+    "@pnp/cli-microsoft365": "11.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
